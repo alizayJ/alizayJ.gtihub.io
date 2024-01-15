@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+.header{
+    margin-top: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+.heading{
+    color: white;
+    padding-left: 5px;
+}
+.navbar{
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar a{
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    border-bottom: 2px solid maroon;
+    padding-bottom: 2px;
+}
+.navbar ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;}
+
+
+.navbar .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+  
+  .navbar .dropdown .dropdown ul {
+    top: 0;
+    left: calc(100% - 30px);
+    visibility: hidden;
+  }
+  
+  .navbar .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+  }
+  .maroonbutton{
+    width: fit-content;
+
+  }
+  .seconddiv{
+    text-align: center;
+
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .seconddivtext{
+
+  text-align: center;
+
+  }
+  .boxdivs{
+    padding-inline: 50px;
+    box-shadow: rgba(0,0,0,0.3);
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .portfolio{
+    align-items: center;
+  }
+  .picturediv{
+    display: flex;
+  }
+  .picturediv1{
+    display: inline-block;
+    flex-direction: row;
+  }
+  .picturediv2{
+    display: inline-block;
+    flex-direction: row;
+  }
+  .picturediv3{
+    display: inline-block;
+    flex-direction: row;
+  }
